@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.components {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+  width: 350px;
+  align-items: center;
+}
+.content__image img {
+  width: 60px;
+  height: 60px;
+}
+.content__data {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.content__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__title > .title {
+  margin-right: 25px;
+}
+.content__body {
+  margin-top: 10px;
+}
